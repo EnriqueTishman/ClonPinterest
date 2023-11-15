@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.contenedor{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+@media screen and (max-width: 1080px) and (min-width: 200px) {
+    .columnas{
+        display: grid;
+        grid-row: 25% 25%;
+    }
+  
+}
+
+
+.main{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-grow: 1;
+    margin: 55px;
+    flex-wrap: wrap;
+    position: relative;   
+}
+
+ 
+
+.columnas img {
+    border-radius: 50px;
+    cursor: zoom-in;
+    display: block;
+
+  }
+  
+.columnas img:hover{
+    filter: grayscale(70%);
+    cursor: zoom-in;
+}
+
+.finder{
+    width: 60%;
+    border: none;
+    height: 47px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.179);
+}
+
+.mensajes{
+    padding-top: 15px;
+    width: 20px;
+    height: 20px;
+}
+.mensajes:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.barra{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+}
+
+.navegador{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    align-content: center;
+}
+
+h4{
+    padding-top: -2px;
+}
+
+#ini{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    border-radius: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+
+#nave{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#mensajes:hover{
+    cursor: pointer;
+    border: none;
+}
+
+#etc{
+    border: none;
+    background-color: blueviolet;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.foto-Perfil{
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#notificaciones{
+    padding-top: 7px;
+}
+#notificaciones :hover{
+    cursor: pointer;
+    border: none;  
+}
+ .foto-Perfil{
+    cursor: pointer;
+    margin-top: 10px;
+ }
+
+ .flecha{
+    margin-top: 10px;
+    cursor: pointer;
+ }
+
+ #ini{
+    font-size: 20px;
+
+ }
+
+ #nave{
+    font-size: 20px;
+ }
+
+ .AccesoRapido{
+    cursor: pointer;
+    flex-direction: row;
+    padding-top: 30px;
+    margin: 10px;
+
+ }
+
+ .Tableros{
+    border: none;
+    margin-top: 60px;
+    
+    
+
+ }
+
+ .contenedor{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(5, 1fr);
+ }
+
+ footer {
+
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+.button{
+   bottom: 40px;
+   left: 130px;
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    opacity: 0;
+
+}
+
+.card-image:hover .button{
+    opacity: 1;
+    cursor: pointer;
+ 
+}
+
+.buttont{
+    
+    bottom: 40px;
+    left: 140px;
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0;
+    
+   
+    
+}
+
+.card-image:hover .buttont{
+    opacity: 1;
+    cursor: pointer;
+   
+}
+
+
+.buttton-save{
+    position: relative;
+    bottom: 425px;
+    left: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-size: large;
+    border-radius: 20px;
+    opacity: 0;
+ 
+}
+
+.card-image:hover .buttton-save{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.buttton-save-m{
+    position: relative;
+    bottom: 350px;
+    left: 70px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-size: large;
+    border-radius: 20px;
+    opacity: 0;  
+}
+
+.card-image:hover .buttton-save-m{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.buttton-save-s{
+    position: relative;
+    bottom: 275px;
+    left: 70px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-size: large;
+    border-radius: 20px;
+    opacity: 0;  
+}
+
+.card-image:hover .buttton-save-s{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.buttton-save-xs{
+    position: relative;
+    bottom: 190px;
+    left: 70px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-size: large;
+    border-radius: 20px;
+    opacity: 0;  
+}
+
+.card-image:hover .buttton-save-xs{
+    opacity: 1;
+    cursor: pointer;
+}
+ 
+ 
